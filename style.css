@@ -1,0 +1,245 @@
+
+
+#container1{
+background-image: url("images/Left_image.png");
+background-repeat: no-repeat;
+
+padding: 80px;
+padding-top: 20px;
+}
+.search{
+    border: solid 1px rgb(219, 212, 212); 
+    border-radius: 5px;
+    height: 50px;
+    padding-top: 8px;
+    background-color: rgb(248, 245, 245);
+}
+#container-2{
+    padding: 80px;
+    padding-top: 30px;
+    
+}
+#search-text-input{
+    width: 600px;
+    outline: none;
+    border: 0px;
+    background-color: rgb(248, 245, 245);
+    padding-left: 10px;
+    
+}
+
+.panel-group{
+    height: 50px !important;
+    padding-top: none;
+}
+  
+.horizontal-line{
+    color: white;
+    background-color: white;
+}
+#search{
+    width: 600px;
+}
+
+#formak{
+    padding-top: 10px;
+    color: orange;
+
+}
+.portal-h3{
+    font-weight: bolder;
+}
+.panel-heading{
+    background-color: white !important;
+    border: 0px;
+}
+.panel{
+    border: none !important;
+    padding: 2px;
+}
+.panel-group{
+    padding-bottom: 40px;
+}
+
+.panel-title {
+    position: relative;
+  }
+    
+  .panel-title::after {
+      content: "\f107";
+      color: #333;
+      top: -2px;
+      right: 0px;
+      position: absolute;
+      font-family: "FontAwesome"
+  }
+  
+  .panel-title[aria-expanded="true"]::after {
+      content: "\f106";
+  }
+img{
+    padding-top: 20px;
+    
+}
+#img1{
+    width: 410px;
+}
+.horizontalline{
+    background-color: orange;
+    width: 150px;
+    height: 2px;
+   float: left;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color:white;
+  }
+.head1{
+    color: white;
+    font-family: sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+   
+    
+}
+
+#submit1{
+    color: white;
+    width: 150px;
+}
+.head3{
+color: white;
+}
+.label{
+    color: whitesmoke;
+}
+form > .form-group > #formGroupExampleInput{
+    background-color: transparent !important;
+    border-color: rgb(221, 161, 49);
+    box-shadow: none;
+    color: white;
+}
+
+form > .form-group > #formGroupExampleInput2{
+    background-color: transparent !important;
+   
+    box-shadow: none;
+    color: white;
+}
+.head4{
+    color: white;
+}
+
+.head5{
+    color: white;
+}
+.col-9{
+    padding-top: 10px;
+}
+
+#head-Id{
+    padding-top: 35px;
+}
+/*.col{
+border: solid gray 1px;
+border-radius: 5px;
+
+
+}*/
+.card {
+    border-radius: 10px;
+}
+#badge1{
+    color: white !important;
+    width: 80px;
+    height: 22px;
+    border-radius: 10px;
+}
+
+#row1{
+    padding-top: 50px;
+}
+/*#myItems{
+    display: none;
+}*/
+
+#portal-badge{
+    background-color: rgba(5, 148, 5, 0.795);
+    color: white;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+.example{
+    border: 1px solid grey;
+    background-color: rgb(240, 239, 239);
+    border-radius: 10px;
+}
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+   outline: none;
+    float: left;
+    width: 93%;
+    background: #f1f1f1;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+
+    padding: 10px;
+    border: none;
+    
+    color: white;
+    font-size: 17px;
+   outline: none;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+   
+  }
+  
+  
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .panel-collapse{
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+ .panel > .panel-heading > .panel-title{
+     color: grey;
+     padding: none;
+ }
+
+ .panel > .panel-heading {
+     padding: none;
+     padding-bottom: none;
+ }
+
+.card > .card-body > .card-text{
+    font-size: small;
+    color: gray;
+}
+
+ul li {
+    list-style: none;
+    
+  }
