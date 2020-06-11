@@ -1,331 +1,382 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!--bootstrap css-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <!--custom css-->
-    <link rel="stylesheet" href="style.css" type="text/css">
-</head>
-<body>
-    
-    
-<div class="row">
-<div class="col-5" id="container1">
-    
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
     <div class="row">
-        <div class="col-3"><img src="images/Logo.png"></div>
-        <div class="col-9" id="head-Id"  >
-           
-<h6 class="head1">Developer Training</h6>
-<h6 class="head1">Association of Nigeria</h6>
-
+      <div class="col-5" id="container1">
+        <div class="row">
+          <div class="col-3"><img src="images/Logo.png" /></div>
+          <div class="col-9" id="head-Id">
+            <h6 class="head1">Developer Training</h6>
+            <h6 class="head1">Association of Nigeria</h6>
+          </div>
         </div>
-    </div>
-    <hr class="horizontal-line">
-    <div class="row">
-        <div class="col-3">
-<h2 class="head3">MGPS  </h2> 
+        <hr class="horizontal-line" />
+        <div class="row">
+          <div class="col-3">
+            <h2 class="head3">MGPS</h2>
+          </div>
+          <div class="col-9">
+            <span class="badge badge-pill badge-warning" id="badge1"
+              >Selected</span
+            >
+          </div>
         </div>
-        <div class="col-9" >
-           <span class="badge badge-pill badge-warning" id="badge1">Selected</span>
+        <h5 class="head4">Mesmerize Grazing and Permit<br />System</h5>
+        <div class="row">
+          <div class="col-sm-6">
+            <hr class="horizontalline" />
+          </div>
+          <div class="col-sm-6"></div>
         </div>
-    </div>
-    <h5 class="head4">Mesmerize Grazing and Permit<br/>System</h5>
-    <div class="row">
-        <div class="col-sm-6">
-            <hr class="horizontalline">
-        </div>
-        <div class="col-sm-6"></div>
-    </div>
-    <div class="row" id="row1">
-        <div class="col-sm-6">
-            
+        <div class="row" id="row1">
+          <div class="col-sm-6">
             <h3 class="head5">Login</h3>
+          </div>
+          <div class="col-sm-6" id="formak">
+            <p>Already have an account?</p>
+          </div>
         </div>
-        <div class="col-sm-6" id="formak">
-             <p>Already have an account?</p>
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput" class="label"
+              >Email Address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="formGroupExampleInput"
+              placeholder="username@company.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2" class="label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="formGroupExampleInput2"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <button type="submit" class="btn btn-warning btn-lg" id="submit1">
+            Login
+          </button>
+        </form>
+        <img id="img1" src="images/remitta.png" />
+      </div>
+
+      <div class="col-7" id="container-2">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-sm-6">
+              <h4 class="portal-h3">
+                Portals
+                <span class="badge badge-light" id="portal-badge">7</span>
+              </h4>
+            </div>
+            <div class="col-sm-6">
+              <p style="float: right; padding-top: 10px;">
+                One Account to Rule them all
+              </p>
+            </div>
+          </div>
         </div>
-    </div>
-    <form>
-        <div class="form-group">
-          <label for="formGroupExampleInput" class="label">Email Address</label>
-          <input type="email" class="form-control" id="formGroupExampleInput" placeholder="username@company.com" required>
+
+        <hr />
+        <div class="col-12">
+          <input
+            type="text"
+            onclick="myFunction()"
+            class="form-control dropbtn"
+            placeholder="Search.."
+            id="myInput"
+            onkeyup="filterFunction()"
+          />
+          <div id="myDropdown" class="col-md-11 dropdown-content">
+            <a href="#about">About</a>
+            <a href="#base">Base</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+            <a href="#custom">Custom</a>
+            <a href="#support">Support</a>
+            <a href="#tools">Tools</a>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="formGroupExampleInput2" class="label">Password</label>
-          <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Password" required>
-        </div>
-        <button type="submit" class="btn btn-warning btn-lg" id="submit1">Login</button>
-      </form>
-     <img id="img1" src="images/remitta.png"> 
-</div>
+        <br />
 
-<div class="col-7" id="container-2">
-    <div class="row">
-        
-    <div class="col-sm-6">
-        <h4 class="portal-h3"> Portals <span class="badge badge-light" id="portal-badge">7</span></h4>
-    </div>
-    <div class="col-sm-6">
-        <p style="float: right; padding-top: 10px;">One Account to Rule them all</p>
-    </div>
-
-</div>
-<hr>
-
-<!--<div class="search">
-    <input type='search' placeholder='Search Portal...' id='search-text-input' />
-    <svg class="bi bi-search"  id="search-icon"  width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
-        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
-      </svg>
-</div> -->
-<form class="example" action="google.com">
-  <input type="text"  class="form-control"  placeholder="Search for names..">
-    <button type="search"><i class="fa fa-search"></i></button>
-  </form>
-<br>
-
-<div class="panel-group" id="accordion">
-    <!-- First Panel -->
-    <div class="panel panel-default">
-        <div class="panel-heading">
-             <h4 class="panel-title" data-toggle="collapse" data-target="#collapseOne">
+        <div class="panel-group" id="accordion">
+          <!-- First Panel -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4
+                class="panel-title"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+              >
                 Most Used
-             </h4>
-        </div>
-        <div id="collapseOne" class="panel-collapse collapse">
-            <div class="panel-body">
-                <div class="row">
-                    <div class="col-4">
-                        
-                        <div class="card" style="width: 11rem; border-color: rgb(41, 138, 41);">
-                            <div class="card-body">
-                              <h5 class="card-title">TPLS</h5>
-                              <p class="card-text">Mesmerise Grazing and Permit System</p>
-                             
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card" style="width: 11rem;">
-                            <div class="card-body">
-                              <h5 class="card-title">OTISP</h5>
-                              <p class="card-text">Agriculture Industry Service Portal</p>
-                            
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-4" id="third-column">
-                        
-                    </div>
-                </div>
+              </h4>
             </div>
-        </div>
-    </div>
-    <hr>
-    
-    
-    <!-- Second Panel -->
-    <div class="panel panel-default">
-        <div class="panel-heading">
-             <h4 class="panel-title" data-toggle="collapse" data-target="#collapseTwo">
-             General
-             </h4>
-        </div>
-        <div id="collapseTwo" class="panel-collapse collapse">
-            <div class="panel-body">
+            <div id="collapseOne" class="panel-collapse collapse">
+              <div class="panel-body">
                 <div class="row">
-                    <div class="col-4">
-                        
-                        <div class="card" style="width: 12rem;">
-                            <div class="card-body">
-                              <h5 class="card-title">TPLS</h5>
-                              <p class="card-text">Mesmerise Grazing and Permit System</p>
-                             
-                            </div>
-                          </div>
+                  <div class="col-4">
+                    <div
+                      class="card"
+                      style="width: 11rem; border-color: rgb(41, 138, 41);"
+                    >
+                      <div class="card-body">
+                        <h5 class="card-title">TPLS</h5>
+                        <p class="card-text">
+                          Mesmerise Grazing and Permit System
+                        </p>
+                      </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card" style="width: 12rem;">
-                            <div class="card-body">
-                              <h5 class="card-title">OTISP</h5>
-                              <p class="card-text">Agriculture Industry Service Portal</p>
-                            
-                            </div>
-                          </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card" style="width: 11rem;">
+                      <div class="card-body">
+                        <h5 class="card-title">OTISP</h5>
+                        <p class="card-text">
+                          Agriculture Industry Service Portal
+                        </p>
+                      </div>
                     </div>
-                    <div class="col-4" id="third-column">
-                        
-                    </div>
+                  </div>
+                  <div class="col-4" id="third-column"></div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-    <hr>
-    <!-- Third Panel -->
-    <div class="panel panel-default">
-        <div class="panel-heading">
-             <h4 class="panel-title" data-toggle="collapse" data-target="#collapseThree">
-             Mainstream
-             </h4>
-        </div>
-        <div id="collapseThree" class="panel-collapse collapse">
-            <div class="panel-body">
+          </div>
+          <hr />
+
+          <!-- Second Panel -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4
+                class="panel-title"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+              >
+                General
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+              <div class="panel-body">
                 <div class="row">
-                    <div class="col-4">
-                        
-                        <div class="card" style="width: 12rem;">
-                            <div class="card-body">
-                              <h5 class="card-title">TPLS</h5>
-                              <p class="card-text">Mesmerise Grazing and Permit System</p>
-                             
-                            </div>
-                          </div>
+                  <div class="col-4">
+                    <div class="card" style="width: 12rem;">
+                      <div class="card-body">
+                        <h5 class="card-title">TPLS</h5>
+                        <p class="card-text">
+                          Mesmerise Grazing and Permit System
+                        </p>
+                      </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card" style="width: 12rem;">
-                            <div class="card-body">
-                              <h5 class="card-title">OTISP</h5>
-                              <p class="card-text">Agriculture Industry Service Portal</p>
-                            
-                            </div>
-                          </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card" style="width: 12rem;">
+                      <div class="card-body">
+                        <h5 class="card-title">OTISP</h5>
+                        <p class="card-text">
+                          Agriculture Industry Service Portal
+                        </p>
+                      </div>
                     </div>
-                    <div class="col-4" id="third-column">
-                        
-                    </div>
+                  </div>
+                  <div class="col-4" id="third-column"></div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-    <hr>
-    <!-- Fourth Panel -->
-    <div class="panel panel-default">
-        <div class="panel-heading">
-             <h4 class="panel-title" data-toggle="collapse" data-target="#collapseFour">
-             Restream
-             </h4>
-        </div>
-        <div id="collapseFour" class="panel-collapse collapse">
-            <div class="panel-body">
+          </div>
+          <hr />
+          <!-- Third Panel -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4
+                class="panel-title"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+              >
+                Mainstream
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+              <div class="panel-body">
                 <div class="row">
-                    <div class="col-4">
-                        
-                        <div class="card" style="width: 12rem;">
-                            <div class="card-body">
-                              <h5 class="card-title">TPLS</h5>
-                              <p class="card-text">Mesmerise Grazing and Permit System</p>
-                             
-                            </div>
-                          </div>
+                  <div class="col-4">
+                    <div class="card" style="width: 12rem;">
+                      <div class="card-body">
+                        <h5 class="card-title">TPLS</h5>
+                        <p class="card-text">
+                          Mesmerise Grazing and Permit System
+                        </p>
+                      </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card" style="width: 12rem;">
-                            <div class="card-body">
-                              <h5 class="card-title">OTISP</h5>
-                              <p class="card-text">Agriculture Industry Service Portal</p>
-                            
-                            </div>
-                          </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card" style="width: 12rem;">
+                      <div class="card-body">
+                        <h5 class="card-title">OTISP</h5>
+                        <p class="card-text">
+                          Agriculture Industry Service Portal
+                        </p>
+                      </div>
                     </div>
-                    <div class="col-4" id="third-column">
-                        
-                    </div>
+                  </div>
+                  <div class="col-4" id="third-column"></div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-    <hr>
-    <!-- Fifth Panel -->
-    <div class="panel panel-default">
-        <div class="panel-heading">
-             <h4 class="panel-title" data-toggle="collapse" data-target="#collapseFive">
-             Liquid
-             </h4>
-        </div>
-        <div id="collapseFive" class="panel-collapse collapse">
-            <div class="panel-body">
+          </div>
+          <hr />
+          <!-- Fourth Panel -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4
+                class="panel-title"
+                data-toggle="collapse"
+                data-target="#collapseFour"
+              >
+                Restream
+              </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse">
+              <div class="panel-body">
                 <div class="row">
-                    <div class="col-4">
-                        
-                        <div class="card" style="width: 12rem;">
-                            <div class="card-body">
-                              <h5 class="card-title">TPLS</h5>
-                              <p class="card-text">Mesmerise Grazing and Permit System</p>
-                             
-                            </div>
-                          </div>
+                  <div class="col-4">
+                    <div class="card" style="width: 12rem;">
+                      <div class="card-body">
+                        <h5 class="card-title">TPLS</h5>
+                        <p class="card-text">
+                          Mesmerise Grazing and Permit System
+                        </p>
+                      </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card" style="width: 12rem;">
-                            <div class="card-body">
-                              <h5 class="card-title">OTISP</h5>
-                              <p class="card-text">Agriculture Industry Service Portal</p>
-                            
-                            </div>
-                          </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card" style="width: 12rem;">
+                      <div class="card-body">
+                        <h5 class="card-title">OTISP</h5>
+                        <p class="card-text">
+                          Agriculture Industry Service Portal
+                        </p>
+                      </div>
                     </div>
-                    <div class="col-4" id="third-column">
-                        
-                    </div>
+                  </div>
+                  <div class="col-4" id="third-column"></div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-    <hr>
-    
-    <!-- Third Panel -->
-    <div class="panel panel-default">
-        <div class="panel-heading">
-             <h4 class="panel-title" data-toggle="collapse" data-target="#collapseSix">
+          </div>
+          <hr />
+          <!-- Fifth Panel -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4
+                class="panel-title"
+                data-toggle="collapse"
+                data-target="#collapseFive"
+              >
+                Liquid
+              </h4>
+            </div>
+            <div id="collapseFive" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="card" style="width: 12rem;">
+                      <div class="card-body">
+                        <h5 class="card-title">TPLS</h5>
+                        <p class="card-text">
+                          Mesmerise Grazing and Permit System
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card" style="width: 12rem;">
+                      <div class="card-body">
+                        <h5 class="card-title">OTISP</h5>
+                        <p class="card-text">
+                          Agriculture Industry Service Portal
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4" id="third-column"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Third Panel -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4
+                class="panel-title"
+                data-toggle="collapse"
+                data-target="#collapseSix"
+              >
                 Others
-             </h4>
-        </div>
-        <div id="collapseSix" class="panel-collapse collapse">
-            <div class="panel-body">
-                <div class="row">
-                    <div class="col-4">
-                        
-                        <div class="card" style="width: 12rem;">
-                            <div class="card-body">
-                              <h5 class="card-title">TPLS</h5>
-                              <p class="card-text">Mesmerise Grazing and Permit System</p>
-                             
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card" style="width: 12rem;">
-                            <div class="card-body">
-                              <h5 class="card-title">OTISP</h5>
-                              <p class="card-text">Agriculture Industry Service Portal</p>
-                            
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-4" id="third-column">
-                        
-                    </div>
-                </div>
+              </h4>
             </div>
+            <div id="collapseSix" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="card" style="width: 12rem;">
+                      <div class="card-body">
+                        <h5 class="card-title">TPLS</h5>
+                        <p class="card-text">
+                          Mesmerise Grazing and Permit System
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card" style="width: 12rem;">
+                      <div class="card-body">
+                        <h5 class="card-title">OTISP</h5>
+                        <p class="card-text">
+                          Agriculture Industry Service Portal
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4" id="third-column"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-       
-</div>
-
-
-</div>
-   
-    
-</body>
+    <script src="script.js" />
+  </body>
 </html>
